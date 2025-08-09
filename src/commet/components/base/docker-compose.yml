@@ -1,0 +1,9 @@
+services:   
+  commet:
+    image: commet
+    build:
+      context: .
+      args:
+        RELEASE: ${RELEASE}
+    container_name: commet
+    restart: unless-stopped

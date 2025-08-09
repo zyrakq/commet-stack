@@ -1,0 +1,4 @@
+services:
+  commet:
+    ports:
+      - "3000:80"

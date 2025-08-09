@@ -1,0 +1,8 @@
+services:
+  commet:
+    networks:
+      - commet-workspace-network
+
+networks:
+  commet-workspace-network:
+    external: true
