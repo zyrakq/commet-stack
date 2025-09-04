@@ -1,9 +1,10 @@
 services:   
   commet:
-    image: commet
-    build:
-      context: .
-      args:
-        RELEASE: ${RELEASE}
+    image: localhost/commet:latest
     container_name: commet
     restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: 10m
+        max-file: 3

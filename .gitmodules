@@ -7,3 +7,6 @@
 [submodule "src/ssl-automation/letsencrypt-manager"]
 	path = src/ssl-automation/letsencrypt-manager
 	url = https://github.com/zyrakq/letsencrypt-manager-stack.git
+[submodule "src/matrix/conduit"]
+	path = src/matrix/conduit
+	url = https://github.com/zyrakq/conduit-stack.git
